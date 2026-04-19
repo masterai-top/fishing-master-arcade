@@ -9,7 +9,7 @@ A real-time arcade fishing game system featuring physics-based shooting and dyna
 
 
 **街机捕鱼大师完整源码 / Arcade fishing master source code / 街機捕魚大師完整源码**  
-100+鱼种+20种炮台+多人同屏+BOSS战+装备系统+排行榜+商业变现，支持HTML5/Unity / 100+魚種+20種炮台+多人同屏+BOSS戰+裝備系統+排行榜+商業變現.
+100+鱼种+20种炮台+多人同屏+BOSS战+装备系统+排行榜+商业变现，支持cocos / 100+魚種+20種炮台+多人同屏+BOSS戰+裝備系統+排行榜+商業變現.
 
 ## 🎯 一键运行 / Quick Start / 一鍵運行
 
