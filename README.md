@@ -4,7 +4,8 @@
 [![Play Demo](https://img.shields.io/badge/%E8%AF%95%E7%8E%A9-Demo-brightgreen?style=for-the-badge)](https://fishing-master-demo.com)
 [![Downloads](https://img.shields.io/github/downloads/niubideren111/fishing-master-arcade/total?style=for-the-badge)](https://github.com/niubideren111/fishing-master-arcade/releases)
 [![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)](https://hub.docker.com)
-[![License](https://img.shields.io/github/license/niubideren111/fishing-master-arcade?style=for-the-badge)](https://github.com/niubideren111/fishing-master-arcade/blob/main/LICENSE)
+
+<img width="1280" height="720" alt="boss_章鱼王子" src="https://github.com/user-attachments/assets/ec23c232-14f6-45e1-942b-aaf634e906d4" />
 
 **街机捕鱼大师完整源码 / Arcade fishing master source code / 街機捕魚大師完整源码**  
 100+鱼种+20种炮台+多人同屏+BOSS战+装备系统+排行榜+商业变现，支持HTML5/Unity / 100+魚種+20種炮台+多人同屏+BOSS戰+裝備系統+排行榜+商業變現.
