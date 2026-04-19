@@ -1,3 +1,4 @@
+A real-time arcade fishing game system featuring physics-based shooting and dynamic fish behavior.
 # Fishing Master Arcade|街机捕鱼游戏源码| 街機捕魚遊戲源码
 
 [![GitHub stars](https://img.shields.io/github/stars/niubideren111/fishing-master-arcade?style=for-the-badge)](https://github.com/niubideren111/fishing-master-arcade)
@@ -151,7 +152,28 @@ IAP道具 | VIP订阅 | 广告激励
 <img width="1282" height="716" alt="鱼对话tips" src="https://github.com/user-attachments/assets/b7ac1682-c0cf-410e-a05a-305b4b17efe0" />
 <img width="1280" height="720" alt="boss_章鱼王子" src="https://github.com/user-attachments/assets/ec23c232-14f6-45e1-942b-aaf634e906d4" />
 
+## 🎮 Gameplay Preview
 
+- Fish animation  
+- Shooting effects  
+- Coin explosion
+## 🎯 Game Mechanics
+
+- Dynamic fish spawning system  
+- Bullet trajectory & collision  
+- Reward probability system  
+- Boss fish events
+## 🎮 Player Experience
+
+- Fast-paced arcade shooting  
+- Reward-driven gameplay  
+- High replayability
+## 🧩 Architecture
+
+- Client (UI rendering)  
+- Game engine (logic)  
+- Server (sync)  
+- Economy system  
 
 ## 📄 商业许可 / License / 商業授權
 商业授权版本 - 完整支持
