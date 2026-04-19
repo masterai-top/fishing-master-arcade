@@ -131,6 +131,26 @@ IAP道具 | VIP订阅 | 广告激励
 
 **[商业源码包]联系Telegram：@xuzongbin001)**
 
+## 💰 获取源码 | Contact
+
+
+📱 **Telegram：@xuzongbin001**  
+
+📧 **Email：masterai918@gmail.com**
+
+👉 **联系我获取演示价**
+
+## 📸 产品截图
+
+<img width="961" height="553" alt="1111" src="https://github.com/user-attachments/assets/77165aa5-49db-4c22-9823-e7b2204ae96c" />
+<img width="1280" height="720" alt="x1" src="https://github.com/user-attachments/assets/3dee7eaf-d30c-4fa1-bec1-068d4bcdd916" />
+<img width="956" height="543" alt="22222" src="https://github.com/user-attachments/assets/fb00e0b9-667a-4e5a-85cb-9b144821c88a" />
+<img width="950" height="512" alt="5555" src="https://github.com/user-attachments/assets/dbed476b-8b4f-47df-94c0-99ea85a18da9" />
+<img width="1280" height="720" alt="新战斗效果" src="https://github.com/user-attachments/assets/344df65d-b891-478c-8653-a3e7aae0a7b9" />
+<img width="1282" height="716" alt="鱼对话tips" src="https://github.com/user-attachments/assets/b7ac1682-c0cf-410e-a05a-305b4b17efe0" />
+
+
+
 
 ## 📄 商业许可 / License / 商業授權
 商业授权版本 - 完整支持
@@ -142,6 +162,4 @@ Copyright (c) 2026 niubideren111
 **⭐ 街机捕鱼经典复刻，商业变现完美！ / Arcade fishing masterpiece! / 街機捕魚經典復刻，商業變現完美！**
 
 
-# fishing-master-arcade
-Arcade fishing game source code / 街机捕鱼游戏源码 / 街機捕魚遊戲源码 - Multiplayer, weapons, bosses, progression, leaderboards, monetization
 
