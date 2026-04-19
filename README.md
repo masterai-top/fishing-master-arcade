@@ -5,7 +5,7 @@
 [![Downloads](https://img.shields.io/github/downloads/niubideren111/fishing-master-arcade/total?style=for-the-badge)](https://github.com/niubideren111/fishing-master-arcade/releases)
 [![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)](https://hub.docker.com)
 
-<img width="1280" height="720" alt="boss_章鱼王子" src="https://github.com/user-attachments/assets/ec23c232-14f6-45e1-942b-aaf634e906d4" />
+
 
 **街机捕鱼大师完整源码 / Arcade fishing master source code / 街機捕魚大師完整源码**  
 100+鱼种+20种炮台+多人同屏+BOSS战+装备系统+排行榜+商业变现，支持HTML5/Unity / 100+魚種+20種炮台+多人同屏+BOSS戰+裝備系統+排行榜+商業變現.
@@ -149,7 +149,7 @@ IAP道具 | VIP订阅 | 广告激励
 <img width="950" height="512" alt="5555" src="https://github.com/user-attachments/assets/dbed476b-8b4f-47df-94c0-99ea85a18da9" />
 <img width="1280" height="720" alt="新战斗效果" src="https://github.com/user-attachments/assets/344df65d-b891-478c-8653-a3e7aae0a7b9" />
 <img width="1282" height="716" alt="鱼对话tips" src="https://github.com/user-attachments/assets/b7ac1682-c0cf-410e-a05a-305b4b17efe0" />
-
+<img width="1280" height="720" alt="boss_章鱼王子" src="https://github.com/user-attachments/assets/ec23c232-14f6-45e1-942b-aaf634e906d4" />
 
 
 
