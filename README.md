@@ -142,6 +142,17 @@ IAP道具 | VIP订阅 | 广告激励
 
 👉 **联系我获取演示价**
 
+
+## 🚀 产品演示视频（强烈推荐观看）
+
+[![街机捕鱼大师完整玩法演示](https://img.youtube.com/vi/IRwcv4oqISA/maxresdefault.jpg)](https://youtu.be/IRwcv4oqISA)
+
+**街机捕鱼大师完整玩法演示视频**  
+100+鱼种 + 20种炮台 + 多人同屏竞技 + 巨型BOSS战 + 装备系统
+
+视频详细展示了游戏的核心捕鱼玩法、不同炮台效果、BOSS战以及多人同屏互动等功能。
+点击上方图片直接跳转 YouTube 播放。
+
 ## 📸 产品截图
 
 <img width="961" height="553" alt="1111" src="https://github.com/user-attachments/assets/77165aa5-49db-4c22-9823-e7b2204ae96c" />
