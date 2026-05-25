@@ -1,5 +1,5 @@
 A real-time arcade fishing game system featuring physics-based shooting and dynamic fish behavior.
-# Fishing Master Arcade|捕鱼源码 | 街机捕鱼游戏源码| 街機捕魚遊戲源码|捕鱼源码
+# Fishing Master Arcade|捕鱼源码 |打鱼源码| 街机捕鱼游戏源码| 街機捕魚遊戲源码|捕鱼源码
 
 [![GitHub stars](https://img.shields.io/github/stars/niubideren111/fishing-master-arcade?style=for-the-badge)](https://github.com/niubideren111/fishing-master-arcade)
 [![Play Demo](https://img.shields.io/badge/%E8%AF%95%E7%8E%A9-Demo-brightgreen?style=for-the-badge)](https://fishing-master-demo.com)
