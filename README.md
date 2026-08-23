@@ -2,14 +2,12 @@ A real-time arcade fishing game system featuring physics-based shooting and dyna
 # Fishing Master Arcade|捕鱼 |打鱼源码| 捕鱼游戏|街机捕鱼游戏| 街機捕魚遊戲|
 
 [![GitHub stars](https://img.shields.io/github/stars/niubideren111/fishing-master-arcade?style=for-the-badge)](https://github.com/niubideren111/fishing-master-arcade)
-[![Play Demo](https://img.shields.io/badge/%E8%AF%95%E7%8E%A9-Demo-brightgreen?style=for-the-badge)](https://fishing-master-demo.com)
-[![Downloads](https://img.shields.io/github/downloads/niubideren111/fishing-master-arcade/total?style=for-the-badge)](https://github.com/niubideren111/fishing-master-arcade/releases)
-[![Docker](https://img.shields.io/badge/Docker-blue?style=for-the-badge&logo=docker)](https://hub.docker.com)
 
 
 
 
-100+鱼种+20种炮台+多人同屏+BOSS战+装备系统+排行榜+商业变现，支持cocos / 100+魚種+20種炮台+多人同屏+BOSS戰+裝備系統+排行榜+商業變現.
+
+100+鱼种+20种炮台+多人同屏+BOSS战+装备系统+排行榜，支持cocos / 100+魚種+20種炮台+多人同屏+BOSS戰+裝備系統+排行榜+商業變現.
 
 ## 🎯 一键运行 / Quick Start / 一鍵運行
 
