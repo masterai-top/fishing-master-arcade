@@ -1,5 +1,5 @@
 A real-time arcade fishing game system featuring physics-based shooting and dynamic fish behavior.
-# Fishing Master Arcade|捕鱼源码 |打鱼源码| 捕鱼游戏源码|街机捕鱼游戏源码| 街機捕魚遊戲源码|捕鱼源码|
+# Fishing Master Arcade|捕鱼 |打鱼源码| 捕鱼游戏|街机捕鱼游戏| 街機捕魚遊戲|
 
 [![GitHub stars](https://img.shields.io/github/stars/niubideren111/fishing-master-arcade?style=for-the-badge)](https://github.com/niubideren111/fishing-master-arcade)
 [![Play Demo](https://img.shields.io/badge/%E8%AF%95%E7%8E%A9-Demo-brightgreen?style=for-the-badge)](https://fishing-master-demo.com)
@@ -8,7 +8,7 @@ A real-time arcade fishing game system featuring physics-based shooting and dyna
 
 
 
-**街机捕鱼大师完整源码 / Arcade fishing master source code / 街機捕魚大師完整源码**  
+
 100+鱼种+20种炮台+多人同屏+BOSS战+装备系统+排行榜+商业变现，支持cocos / 100+魚種+20種炮台+多人同屏+BOSS戰+裝備系統+排行榜+商業變現.
 
 ## 🎯 一键运行 / Quick Start / 一鍵運行
@@ -27,8 +27,6 @@ docker-compose up -d
 
 ---
 
-## 🎮 街机级游戏体验 / Arcade Experience / 街機級遊戲體驗
-
 ### **核心玩法**
 | 系统 | 特色 | 商业价值 |
 |------|------|----------|
@@ -36,9 +34,9 @@ docker-compose up -d
 | **20种炮台** | 散弹/追踪/穿透/核弹 | 付费解锁 |
 | **多人同屏** | 4-8人竞技场 | 社交留存 |
 | **BOSS战** | 巨型BOSS群战 | 合作高潮 |
-| **每日挑战** | 限时任务 | 日活提升 |
+| **增加游戏趣味性** | 限时任务 | 增加游戏趣味性 |
 
-### **商业变现**
+### **app中的付费点**
 
 💰 炮台付费解锁 (IAP)
 🎁 新手礼包
@@ -76,7 +74,7 @@ VIP炮 | 传说炮 | 神器炮 | 终极炮
 ✅ IP限制
 ✅ 异常封禁
 
-## 💰 完整商业体系 / Monetization / 完整商業體系
+## 💰 完整经济系统
 IAP道具 | VIP订阅 | 广告激励
 每日礼包 | 限时活动 | 赛季通行证
 排行奖励 | 公会系统 | 直播打赏
@@ -86,7 +84,7 @@ IAP道具 | VIP订阅 | 广告激励
 🎨 UI: 美术资源全套
 ⚙️ 后端: c++
 🗄️ 数据库:mysql
-💰 支付: 支付宝
+
 📱 适配: iOS/Android
 🚀 部署: Docker + CDN
 
@@ -97,14 +95,7 @@ IAP道具 | VIP订阅 | 广告激励
 💻 PC客户端
 🖥️ 街机模拟器
 
-## 🎨 高质量美术资源 / Art Assets / 高品質美術資源
 
-✅ 100+鱼种贴图
-✅ 20种炮台特效
-✅ 50+场景背景
-✅ 粒子特效系统
-✅ UI图标完整
-✅ 音效30+种
 ## 🎯 商业成功指标 / Business Metrics / 商業成功指標
 
 | 指标 | 目标 | 实现 |
@@ -123,23 +114,22 @@ IAP道具 | VIP订阅 | 广告激励
 
 ## 📦 版本发布 / Releases / 版本發佈
 
-### 🚀 v2.0 Commercial (最新)
-✅ 完整商业体系  
+### 🚀 v2.0 Commercial (最新) 
 ✅ 20种炮台系统  
 ✅ 多人竞技场  
 ✅ 反作弊完善  
 ✅ 多端完美适配  
 
-**[商业源码包]联系Telegram：@xuzongbin001)**
 
-## 💰 获取源码 | Contact
+###  问题反馈与交流
+仅限学术与技术交流
 
 
 📱 **Telegram：@xuzongbin001**  
 
 📧 **Email：masterai918@gmail.com**
 
-👉 **联系我获取演示**
+
 
 
 ## 🚀 产品演示视频（强烈推荐观看）
@@ -192,14 +182,10 @@ IAP道具 | VIP订阅 | 广告激励
 - Server (sync)  
 - Economy system  
 
-## 📄 商业许可 / License / 商業授權
-商业授权版本 - 完整支持
-联系: masterai918@gmail.com
-Copyright (c) 2026 niubideren111
 
 ---
 
-**⭐ 街机捕鱼经典复刻，商业变现完美！ / Arcade fishing masterpiece! / 街機捕魚經典復刻，商業變現完美！**
+
 
 
 
