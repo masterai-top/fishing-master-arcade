@@ -1,17 +1,46 @@
 A real-time arcade fishing game system featuring physics-based shooting and dynamic fish behavior.
-# Fishing Master Arcade|捕鱼 |打鱼源码| 捕鱼游戏|街机捕鱼游戏| 街機捕魚遊戲|
+# Fishing Master Arcade 捕鱼游戏源码
 [简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
 
+Fishing Master Arcade 是一套街机捕鱼、打鱼游戏、多人实时捕鱼游戏源码项目，覆盖 100+ 鱼种、20 种炮台、BOSS 战、多人同屏、排行榜、装备成长、活动玩法和商业化系统，适合用于 Cocos、Unity、HTML5、移动端和私有化部署的二次开发。
 
+## 核心卖点
 
-[![GitHub stars](https://img.shields.io/github/stars/niubideren111/fishing-master-arcade?style=for-the-badge)](https://github.com/niubideren111/fishing-master-arcade)
+- 100+ 鱼种与倍率体系：小鱼、稀有鱼、BOSS、龙王等多层级奖励设计
+- 20 种炮台系统：散弹、追踪、穿透、冰冻、闪电、核弹、范围、连发、VIP、传说炮等
+- 多人同屏竞技：支持 4-8 人实时房间、同步射击、奖励结算和排行
+- BOSS 与活动玩法：巨型 BOSS、金币雨、幸运转盘、公会战、赛季皮肤
+- 商业化模块：IAP、VIP、广告激励、新手礼包、排行奖励、赛季通行证
+- 反作弊设计：服务器权威计算、行为频率检测、异常封禁、设备和 IP 风控
 
+## 适用场景
 
+- 街机捕鱼源码展示与商业合作
+- 捕鱼达人、打鱼游戏、鱼机游戏、休闲竞技游戏二次开发
+- iOS、Android、HTML5、PC、街机模拟器多端产品
+- 游戏大厅、休闲游戏合集、运营后台和服务器架构参考
+- 东南亚、欧美、南美等市场的捕鱼类产品技术评估
 
+## 技术栈
 
+- 客户端：Cocos Creator / Unity / HTML5 Canvas 可扩展方向
+- 服务端：C++ 实时同步与结算逻辑
+- 数据库：MySQL
+- 部署：Docker、CDN、移动端打包与私有化部署
 
-100+鱼种+20种炮台+多人同屏+BOSS战+装备系统+排行榜，支持cocos / 100+魚種+20種炮台+多人同屏+BOSS戰+裝備系統+排行榜.
+## 项目结构建议
 
+```text
+client/                 # 客户端源码或演示工程
+server/                 # 实时房间、结算和反作弊服务
+admin/                  # 运营后台与配置管理
+database/               # 数据库结构与迁移说明
+config.example/         # 脱敏配置示例
+docs/                   # GitHub Pages 产品与技术文档
+scripts/                # 构建、部署和维护脚本
+tests/                  # 核心玩法、倍率、接口和风控测试
+.github/workflows/      # CI 与 GitHub Pages 自动发布
+```
 ## 🎯 一键运行 / Quick Start / 一鍵運行
 
 ```bash
