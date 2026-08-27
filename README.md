@@ -133,7 +133,7 @@ IAP道具 | VIP订阅 | 广告激励
 
 
 
-## 产品截图 / Product Screenshots
+
 ## 产品截图 / Product Screenshots
 
 ### 捕鱼游戏大厅 / Fishing Game Lobby
@@ -176,9 +176,6 @@ IAP道具 | VIP订阅 | 广告激励
 
 <img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/shengji.jpg" alt="Fishing Game Upgrade System" width="860">
 
-### 锻造系统 / Forging System
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/duanzao.jpg" alt="Fishing Game Forging System" width="860">
 
 ### 宠物系统 / Pet System
 
