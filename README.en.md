@@ -58,6 +58,56 @@ The public repository should show product structure, gameplay modules, selected 
 
 Telegram: `@xuzongbin001`  
 Email: `masterai918@gmail.com`
+## 产品截图 / Product Screenshots
+
+### 捕鱼游戏大厅 / Fishing Game Lobby
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/lobby.png" alt="Fishing Master Arcade Game Lobby" width="860">
+
+### 经典模式 / Classic Mode
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/classic-mode.png" alt="Fishing Master Arcade Classic Mode" width="860">
+
+### 海魔来袭 / Sea Demon Raid
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/haimo.png" alt="Sea Demon Raid Fishing Game Mode" width="860">
+
+### 玉石大厅 / Jade Lobby
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/yushidating.png" alt="Fishing Game Jade Lobby" width="860">
+
+### 玉石场 / Jade Arena
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/jade-arena.jpg" alt="Fishing Game Jade Arena" width="860">
+
+### 经典场景 / Classic Fishing Scene
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/jingdian.png" alt="Classic Arcade Fishing Scene" width="860">
+
+### 战斗界面 / Battle Gameplay
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/zhandou.jpg" alt="Arcade Fishing Battle Gameplay" width="860">
+
+### 比赛模式 / Tournament Mode
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/tournament-mode.png" alt="Fishing Game Tournament Mode" width="860">
+
+### 商城界面 / Shop
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/shangchnag.jpg" alt="Fishing Game Shop Interface" width="860">
+
+### 升级系统 / Upgrade System
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/shengji.jpg" alt="Fishing Game Upgrade System" width="860">
+
+
+### 宠物系统 / Pet System
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/chongwu.jpg" alt="Fishing Game Pet System" width="860">
+
+### 找刺激小游戏 / Mini Games
+
+<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/xiaoyouxi1.png" alt="Fishing Master Arcade Mini Games" width="860">
 
 ## License
 
