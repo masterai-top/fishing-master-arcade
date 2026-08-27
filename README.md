@@ -186,23 +186,6 @@ IAP道具 | VIP订阅 | 广告激励
 <img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/xiaoyouxi1.png" alt="Fishing Master Arcade Mini Games" width="860">
 
 
-## 📸 产品截图
-
-<img width="961" height="553" alt="1111" src="https://github.com/user-attachments/assets/77165aa5-49db-4c22-9823-e7b2204ae96c" />
-<img width="1280" height="720" alt="x1" src="https://github.com/user-attachments/assets/3dee7eaf-d30c-4fa1-bec1-068d4bcdd916" />
-<img width="956" height="543" alt="22222" src="https://github.com/user-attachments/assets/fb00e0b9-667a-4e5a-85cb-9b144821c88a" />
-<img width="950" height="512" alt="5555" src="https://github.com/user-attachments/assets/dbed476b-8b4f-47df-94c0-99ea85a18da9" />
-<img width="1280" height="720" alt="新战斗效果" src="https://github.com/user-attachments/assets/344df65d-b891-478c-8653-a3e7aae0a7b9" />
-<img width="1282" height="716" alt="鱼对话tips" src="https://github.com/user-attachments/assets/b7ac1682-c0cf-410e-a05a-305b4b17efe0" />
-<img width="1280" height="720" alt="boss_章鱼王子" src="https://github.com/user-attachments/assets/ec23c232-14f6-45e1-942b-aaf634e906d4" />
-<img width="959" height="540" alt="微信图片_20260818205929" src="https://github.com/user-attachments/assets/cc480853-599a-4384-baa5-07d4203cdcd4" />
-<img width="959" height="538" alt="微信图片_20260818205914" src="https://github.com/user-attachments/assets/1bbf534c-5444-4075-9e6f-4cc59937cb29" />
-<img width="956" height="533" alt="微信图片_20260818205905" src="https://github.com/user-attachments/assets/a8f86a82-4ee5-4577-b6eb-fa197467632c" />
-<img width="955" height="534" alt="微信图片_20260818205901" src="https://github.com/user-attachments/assets/c7e3f899-ae0b-4774-871c-b79e39a0e106" />
-<img width="957" height="537" alt="微信图片_20260818205851" src="https://github.com/user-attachments/assets/3e4168a1-e365-494e-a677-7e9b94cd5f1f" />
-<img width="960" height="541" alt="微信图片_20260818205846" src="https://github.com/user-attachments/assets/a61fbbbb-9f9e-481a-a638-d153fd60c027" />
-<img width="955" height="544" alt="微信图片_20260818205842" src="https://github.com/user-attachments/assets/8f324f4a-47df-41eb-8e7b-5b0fc6a49035" />
-<img width="954" height="541" alt="微信图片_20260818205938" src="https://github.com/user-attachments/assets/1ca927d4-ebf0-4dc3-9c37-4cf532dc9040" />
 ## 🎮 Gameplay Preview
 
 - Fish animation  
