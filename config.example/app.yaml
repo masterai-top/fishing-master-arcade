@@ -1,0 +1,22 @@
+environment: development
+
+gateway:
+  host: 127.0.0.1
+  port: 8080
+
+room_server:
+  host: 127.0.0.1
+  port: 8090
+  max_rooms: 100
+
+admin:
+  host: 127.0.0.1
+  port: 3000
+  require_mfa_in_production: true
+  configuration_changes_require_review: true
+
+observability:
+  log_level: info
+  structured_logs: true
+  metrics_enabled: true
+  redact_personal_data: true

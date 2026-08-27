@@ -1,0 +1,36 @@
+version: 1
+modes:
+  classic:
+    enabled: true
+    scenes:
+      - id: kraken-vortex
+        name: Kraken Vortex
+        multiplier_range: [1, 30000]
+      - id: rookie-beach
+        name: Rookie Beach
+        multiplier_range: [1, 30000]
+      - id: deep-sea-giants
+        name: Deep-Sea Giants
+        multiplier_range: [1, 30000]
+      - id: ghost-captain
+        name: Ghost Captain
+        multiplier_range: [1, 30000]
+  tournament:
+    enabled: true
+    ranking_enabled: true
+  jade:
+    enabled: false
+    scenes:
+      - id: undead-ruins
+        name: Undead Ruins
+        multiplier_range: [5000, 10000]
+      - id: celestial-palace
+        name: Celestial Palace Clash
+        multiplier_range: [5000, 10000]
+  sea_demon:
+    enabled: false
+  thrill_zone:
+    enabled: false
+
+# Capture probabilities are intentionally omitted. Production probability
+# configuration requires versioning, approval, simulation, audit, and legal review.
