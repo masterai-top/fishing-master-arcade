@@ -1,0 +1,1 @@
+GameRoom.exe -workdir %cd%
