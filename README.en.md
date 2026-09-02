@@ -1,4 +1,4 @@
-# Fishing Master Arcade Game Source Code
+# Fishing Master Arcade Game Source Code| fishing-master-arcade
 
 [简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
 
