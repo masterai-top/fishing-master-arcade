@@ -1,7 +1,7 @@
 [简体中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
-
-A real-time arcade fishing game system featuring physics-based shooting and dynamic fish behavior.
 # 捕鱼游戏源码|捕鱼玩法与前端演示 | fishing-master-arcade
+A real-time arcade fishing game system featuring physics-based shooting and dynamic fish behavior.
+
 
 本项目聚焦捕鱼玩法与前端演示，保留线上现有 README 的功能、架构、截图与使用说明，并以仓库实际代码为准。
 > 项目功能、性能、运营记录与部署能力应结合当前版本独立验证；许可证和第三方素材范围以仓库文件为准。
