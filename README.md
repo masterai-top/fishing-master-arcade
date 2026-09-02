@@ -235,6 +235,14 @@ IAP道具 | VIP订阅 | 广告激励
 <img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/xiaoyouxi1.png" alt="Fishing Master Arcade Mini Games" width="860">
 
 
+
+## 💰 联系我
+
+
+
+📱 **Telegram：@xuzongbin001**  
+📧 **Email：masterai918@gmail.com**
+
 ## 🎮 Gameplay Preview
 
 
