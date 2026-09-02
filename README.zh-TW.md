@@ -1,6 +1,11 @@
-# Fishing Master Arcade 捕魚遊戲源碼
+# 捕魚遊戲源碼|捕魚玩法與前端演示 | fishing-master-arcade
+
 
 [簡體中文](README.md) | [English](README.en.md) | [繁體中文](README.zh-TW.md)
+
+本專案聚焦捕魚玩法與前端演示，保留線上現有 README 的功能、架構、截圖與使用說明，並以倉庫實際程式碼為準。
+
+> 專案功能、效能、營運記錄與部署能力應結合目前版本獨立驗證；授權與第三方素材範圍以倉庫檔案為準。
 
 Fishing Master Arcade 是一套街機捕魚、打魚遊戲、多人即時捕魚遊戲源碼項目，覆蓋 100+ 魚種、20 種炮台、BOSS 戰、多人同屏、排行榜、裝備成長、活動玩法與商業化系統，適合用於 Cocos、Unity、HTML5、移動端與私有化部署的二次開發。
 
@@ -58,6 +63,7 @@ tests/                  # 核心玩法、倍率、接口與風控測試
 
 Telegram：`@xuzongbin001`  
 Email：`masterai918@gmail.com`
+
 ## 产品截图 / Product Screenshots
 
 ### 捕鱼游戏大厅 / Fishing Game Lobby
