@@ -148,13 +148,6 @@ Email：`masterai918@gmail.com`
 
 
 
-## 💰 联系我
-
-
-
-📱 **Telegram：@xuzongbin001**  
-
-📧 **Email：masterai918@gmail.com**
 
 ## License
 
