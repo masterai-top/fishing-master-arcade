@@ -1,274 +1,86 @@
 [简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
 
-# 多人街机捕鱼游戏|捕鱼游戏源码
+# 捕鱼游戏源码：多人街机捕鱼与打鱼游戏平台
 
-A real-time arcade fishing game system featuring physics-based shooting and dynamic fish behavior.
-## 捕鱼玩法与前端演示 | fishing-master-arcade
+`fishing-master-arcade` 是一套包含真实游戏截图和可运行后端骨架的多人街机捕鱼项目。仓库覆盖 Lua 客户端代码、C++ 捕鱼结算与房间模块、Python FastAPI 房间接口、Node.js 运营接口、MySQL 数据结构、配置样例和测试，可用于研究捕鱼游戏、打鱼游戏、鱼机玩法、多人房间以及服务端权威结算。
 
+> 仓库中的生产能力、素材授权、概率配置和商业部署范围必须结合当前目录、许可证和测试结果独立核验。README 不再把无法从仓库验证的日活、付费率或留存目标当成已实现指标。
 
-> 项目功能、性能、运营记录与部署能力应结合当前版本独立验证；许可证和第三方素材范围以仓库文件为准。
+## 真实产品截图
 
+| 游戏大厅 | 经典捕鱼场 | 多人比赛模式 |
+|---|---|---|
+| ![捕鱼游戏大厅源码真实界面](docs/assets/screenshots/lobby.png) | ![街机捕鱼经典模式与炮台射击](docs/assets/screenshots/classic-mode.png) | ![多人捕鱼比赛模式](docs/assets/screenshots/tournament-mode.png) |
 
-Fishing Master Arcade 是一套街机捕鱼、打鱼游戏、多人实时捕鱼游戏源码项目，覆盖 100+ 鱼种、20 种炮台、BOSS 战、多人同屏、排行榜、装备成长、活动玩法和商业化系统，适合用于 Cocos、Unity、HTML5、移动端和私有化部署的二次开发。
+| 海魔来袭 | 玉石大厅 | 捕鱼战斗界面 |
+|---|---|---|
+| ![捕鱼游戏海魔Boss玩法](docs/assets/screenshots/haimo.png) | ![捕鱼游戏玉石大厅](docs/assets/screenshots/yushidating.png) | ![打鱼游戏炮台战斗界面](docs/assets/screenshots/zhandou.jpg) |
 
+## 产品功能
 
-## 核心卖点
+- **捕鱼大厅与模式入口**：真实截图展示游戏大厅、经典场、比赛场、玉石场、海魔来袭和小游戏入口。
+- **炮台射击与捕鱼结算**：C++ `FishingEngine` 接收余额、炮台成本和鱼类参数，返回捕获结果、奖励和新余额。
+- **多人实时房间**：C++ `Room` 模块实现玩家加入、离开、容量和在线人数；FastAPI 提供房间列表与加入接口。
+- **鱼群与倍率配置**：`FishSpec` 包含鱼 ID、显示名称、奖励倍率和捕获概率；示例配置定义不同场景和倍率范围。
+- **比赛与排行**：配置中存在 tournament 模式和 `ranking_enabled`，真实截图展示比赛模式。
+- **成长与运营界面**：线上图片展示商城、升级、锻造、宠物和活动小游戏等产品页面。
+- **运营 API**：Node.js/Express 服务提供模式目录、健康检查和输入校验骨架。
+- **服务端权威方向**：概率配置刻意不写入公开示例，仓库说明生产概率应经过版本、审批、模拟、审计和合规检查。
 
+## 玩法流程
 
-- 100+ 鱼种与倍率体系：小鱼、稀有鱼、BOSS、龙王等多层级奖励设计
-- 20 种炮台系统：散弹、追踪、穿透、冰冻、闪电、核弹、范围、连发、VIP、传说炮等
-- 多人同屏竞技：支持 4-8 人实时房间、同步射击、奖励结算和排行
-- BOSS 与活动玩法：巨型 BOSS、金币雨、幸运转盘、公会战、赛季皮肤
-- 商业化模块：IAP、VIP、广告激励、新手礼包、排行奖励、赛季通行证
-- 反作弊设计：服务器权威计算、行为频率检测、异常封禁、设备和 IP 风控
+1. 玩家从捕鱼大厅选择经典、比赛或其他开放模式。
+2. 房间服务根据模式返回可加入房间和会话信息。
+3. 玩家选择炮台并发射，系统扣除对应成本。
+4. 服务端根据鱼类参数和受控随机过程计算是否捕获。
+5. 捕获后更新奖励与余额，客户端播放击中、金币和鱼群动画。
+6. 比赛模式可结合排名规则统计结果；实际规则以完整配置和服务实现为准。
 
+## 可验证技术架构
 
-## 适用场景
+| 层级 | 仓库内容 | 作用 |
+|---|---|---|
+| 客户端 | `client/` 下 Lua UI、协议、登录、好友等模块 | 游戏界面、交互与网络协议样本 |
+| C++ 服务 | `server-cpp/`、CMake、FishingEngine、Room、测试 | 射击结算、余额更新和房间成员管理 |
+| Python API | FastAPI、`/v1/rooms`、health、pytest | 房间目录、加入房间和服务健康检查 |
+| 运营接口 | Node.js 20、Express、Helmet、Zod | 模式目录、接口安全头和参数校验 |
+| 数据库 | `database/schema.sql`、开发种子数据 | 基础数据结构和本地开发样例 |
+| 配置 | `config.example/fishing-modes.yaml` | 经典、比赛、玉石、海魔和刺激区模式样例 |
+| 自动检查 | C++、Python、Node 与仓库契约测试 | 验证核心模块和目录约定 |
 
-
-- 街机捕鱼源码展示与商业合作
-- 捕鱼达人、打鱼游戏、鱼机游戏、休闲竞技游戏二次开发
-- iOS、Android、HTML5、PC、街机模拟器多端产品
-- 游戏大厅、休闲游戏合集、运营后台和服务器架构参考
-- 东南亚、欧美、南美等市场的捕鱼类产品技术评估
-
-
-## 技术栈
-
-
-- 客户端：Cocos Creator / Unity / HTML5 Canvas 可扩展方向
-- 服务端：C++ 实时同步与结算逻辑
-- 数据库：MySQL
-- 部署：Docker、CDN、移动端打包与私有化部署
-
-
-## 项目结构建议
-
+## 仓库结构
 
 ```text
-client/                 # 客户端源码或演示工程
-server/                 # 实时房间、结算和反作弊服务
-admin/                  # 运营后台与配置管理
-database/               # 数据库结构与迁移说明
-config.example/         # 脱敏配置示例
-docs/                   # GitHub Pages 产品与技术文档
-scripts/                # 构建、部署和维护脚本
-tests/                  # 核心玩法、倍率、接口和风控测试
-.github/workflows/      # CI 与 GitHub Pages 自动发布
+client/             Lua 客户端与界面代码
+server-cpp/         C++ 捕鱼引擎、房间与测试
+server-python/      FastAPI 房间接口与测试
+admin/              Node.js 运营接口骨架
+database/           MySQL 结构与开发种子数据
+config.example/     脱敏模式配置样例
+docs/               GitHub Pages 与真实截图
+scripts/            构建、验证和开发脚本
+tests/              仓库集成检查
 ```
-## 🎯 一键运行 / Quick Start / 一鍵運行
 
+## 图文专题
+
+- [捕鱼游戏源码与项目结构](https://masterai-top.github.io/fishing-master-arcade/zh-cn/fishing-game-source-code.html)
+- [街机捕鱼与炮台玩法](https://masterai-top.github.io/fishing-master-arcade/zh-cn/arcade-fishing-game.html)
+- [打鱼游戏、鱼群与 Boss 战](https://masterai-top.github.io/fishing-master-arcade/zh-cn/fish-shooting-game.html)
+- [多人捕鱼服务端架构](https://masterai-top.github.io/fishing-master-arcade/zh-cn/multiplayer-fishing-server.html)
+- [English fishing game source overview](https://masterai-top.github.io/fishing-master-arcade/en/fishing-game-source-code.html)
+
+## 获取源码与验证
 
 ```bash
-## HTML5 Web版 (推荐)
-npm install && npm run dev
-## http://localhost:8080
-
-
-## Unity版
-UnityHub → 打开项目 → Build & Run
-
-
-## Docker服务器版
-docker-compose up -d
+git clone https://github.com/masterai-top/fishing-master-arcade.git
+cd fishing-master-arcade
 ```
 
+请根据 [BACKEND-SCAFFOLD-README.md](BACKEND-SCAFFOLD-README.md)、`server-cpp/CMakeLists.txt`、`server-python/pyproject.toml` 和 `admin/package.json` 分别准备环境。仓库没有根目录 `package.json` 或 `docker-compose.yml`，因此不应在根目录直接执行旧版 README 中的 `npm install` 或 `docker-compose up`。
 
----
+## 合规与安全
 
+部署前需要核对素材许可证、概率与随机性、奖励经济、支付与广告、年龄限制、隐私保护、日志审计、反作弊和当地游戏法规。生产概率必须经过模拟和独立审计，严禁把开发种子或示例配置直接用于生产环境。
 
-### **核心玩法**
-| 系统 | 特色 | 商业价值 |
-|------|------|----------|
-| **100+鱼种** | 小鱼1倍 → 龙王1000倍 | 高倍率刺激 |
-| **20种炮台** | 散弹/追踪/穿透/核弹 | 付费解锁 |
-| **多人同屏** | 4-8人竞技场 | 社交留存 |
-| **BOSS战** | 巨型BOSS群战 | 合作高潮 |
-| **增加游戏趣味性** | 限时任务 | 增加游戏趣味性 |
-
-
-### **app中的付费点**
-
-
-💰 炮台付费解锁 (IAP)
-🎁 新手礼包
-💎 VIP月卡 (倍率加成)
-🏆 排行奖励
-📺 广告激励
-
-
----
-
-
-## 🐟 鱼种与倍率 / Fish & Multipliers / 魚種與倍率
-
-
-| 鱼种 | 倍率 | 稀有度 | 捕获难度 |
-|------|------|--------|----------|
-| 小丑鱼 | 2x | 常见 | ★☆☆ |
-| 海豚 | 15x | 普通 | ★★☆ |
-| 鲨鱼 | 80x | 稀有 | ★★★ |
-| 巨鲸 | 500x | 传说 | ★★★★ |
-| 龙王 | 1000x | 神话 | ★★★★★ |
-
-
-## 🎯 20种炮台系统 / 20 Weapons / 20種炮台
-基础炮 | 散弹炮 | 追踪炮 | 穿透炮
-冰冻炮 | 闪电炮 | 核弹炮 | 范围炮
-连发炮 | 爆破炮 | 毒液炮 | 减速炮
-VIP炮 | 传说炮 | 神器炮 | 终极炮
-
-
-## 🛡️ 反作弊系统 / Anti-Cheat / 反作弊系統
-
-
-✅ 服务器权威计算
-✅ 行为频率检测
-✅ 设备指纹
-✅ IP限制
-✅ 异常封禁
-
-
-## 💰 完整经济系统
-IAP道具 | VIP订阅 | 广告激励
-每日礼包 | 限时活动 | 赛季通行证
-排行奖励 | 公会系统 | 直播打赏
-
-
-## 🏗️ 专业技术栈 / Tech Stack / 專業技術棧
-🎮 引擎: Cocos Creator 3.8 
-🎨 UI: 美术资源全套
-⚙️ 后端: c++
-🗄️ 数据库:mysql
-
-
-📱 适配: iOS/Android
-🚀 部署: Docker + CDN
-
-
-## 📱 完美多端适配 / Cross-Platform / 跨平台適配
-
-
-📲 Android APK
-🍎 iOS IPA
-💻 PC客户端
-🖥️ 街机模拟器
-
-
-## 🎯 商业成功指标 / Business Metrics / 商業成功指標
-
-
-| 指标 | 目标 | 实现 |
-|------|------|------|
-| 日活 | 10w+ | ✅ |
-| ARPU | ¥2.5 | ✅ |
-| 付费率 | 8% | ✅ |
-| 留存D1 | 45% | ✅ |
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/lobby.png" alt="Fishing Master Arcade Game Lobby" width="860">
-
-
-### 经典模式 / Classic Mode
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/classic-mode.png" alt="Fishing Master Arcade Classic Mode" width="860">
-
-
-### 海魔来袭 / Sea Demon Raid
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/haimo.png" alt="Sea Demon Raid Fishing Game Mode" width="860">
-
-
-### 玉石大厅 / Jade Lobby
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/yushidating.png" alt="Fishing Game Jade Lobby" width="860">
-
-
-### 玉石场 / Jade Arena
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/jade-arena.jpg" alt="Fishing Game Jade Arena" width="860">
-
-
-### 经典场景 / Classic Fishing Scene
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/jingdian.png" alt="Classic Arcade Fishing Scene" width="860">
-
-
-### 战斗界面 / Battle Gameplay
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/zhandou.jpg" alt="Arcade Fishing Battle Gameplay" width="860">
-
-
-### 比赛模式 / Tournament Mode
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/tournament-mode.png" alt="Fishing Game Tournament Mode" width="860">
-
-
-### 商城界面 / Shop
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/shangchnag.jpg" alt="Fishing Game Shop Interface" width="860">
-
-
-### 升级系统 / Upgrade System
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/shengji.jpg" alt="Fishing Game Upgrade System" width="860">
-
-
-### 宠物系统 / Pet System
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/chongwu.jpg" alt="Fishing Game Pet System" width="860">
-
-
-### 找刺激小游戏 / Mini Games
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/xiaoyouxi1.png" alt="Fishing Master Arcade Mini Games" width="860">
-
-
-
-## 💰 联系我
-
-
-
-📱 **Telegram：@xuzongbin001**  
-📧 **Email：masterai918@gmail.com**
-
-## 🎮 Gameplay Preview
-
-
-- Fish animation  
-- Shooting effects  
-- Coin explosion
-## 🎯 Game Mechanics
-
-
-- Dynamic fish spawning system  
-- Bullet trajectory & collision  
-- Reward probability system  
-- Boss fish events
-## 🎮 Player Experience
-
-
-- Fast-paced arcade shooting  
-- Reward-driven gameplay  
-- High replayability
-## 🧩 Architecture
-
-
-- Client (UI rendering)  
-- Game engine (logic)  
-- Server (sync)  
-- Economy system  
-
-
----
+联系：Telegram `@xuzongbin001` · Email `masterai918@gmail.com` · [GitHub Issues](https://github.com/masterai-top/fishing-master-arcade/issues)

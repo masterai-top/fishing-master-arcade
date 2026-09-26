@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://masterai-top.github.io/fishing-master-arcade/</loc><priority>1.0</priority></url>
-  <url><loc>https://masterai-top.github.io/fishing-master-arcade/features.html</loc><priority>0.8</priority></url>
-  <url><loc>https://masterai-top.github.io/fishing-master-arcade/architecture.html</loc><priority>0.7</priority></url>
-  <url><loc>https://masterai-top.github.io/fishing-master-arcade/deployment.html</loc><priority>0.7</priority></url>
-  <url><loc>https://masterai-top.github.io/fishing-master-arcade/responsible-use.html</loc><priority>0.6</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/features.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/architecture.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/deployment.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/responsible-use.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/zh-cn/fishing-game-source-code.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/zh-cn/arcade-fishing-game.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/zh-cn/fish-shooting-game.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/zh-cn/multiplayer-fishing-server.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/zh-tw/fishing-game-source-code.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/zh-tw/arcade-fishing-game.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/zh-tw/fish-shooting-game.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/zh-tw/multiplayer-fishing-server.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/en/fishing-game-source-code.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://masterai-top.github.io/fishing-master-arcade/en/arcade-fishing-platform.html</loc><lastmod>2026-09-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>

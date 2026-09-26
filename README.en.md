@@ -1,153 +1,71 @@
-[简体中文](README.md) | [繁體中文](README.zh-TW.md) | [English](README.en.md)
+[简体中文](README.md) | [繁體中文](README.zh-TW.md) | **English**
 
-# Multiplayer Arcade Fishing Game and Frontend Demo
+# Fishing Game Source Code: Multiplayer Arcade Fish Shooting Platform
 
-Fishing Master Arcade is an arcade fishing game source code project for real-time multiplayer fish shooting games. It covers 100+ fish types, 20 weapon/cannon systems, boss events, multiplayer rooms, leaderboards, equipment progression, activity systems, monetization modules, and scalable backend architecture.
+`fishing-master-arcade` combines real product screenshots with a verifiable backend scaffold for an arcade fishing game. The repository includes Lua client modules, a C++ fishing settlement engine and room model, Python FastAPI room endpoints, a Node.js operations API, MySQL schema, example mode configuration and tests. It is useful for studying fish-shooting gameplay, multiplayer rooms and server-authoritative settlement.
 
+> Production readiness, asset licensing, probability configuration and commercial deployment must be independently verified against the current files, license and tests. Unverifiable DAU, payment-rate and retention targets are not presented as achieved results.
 
-## Highlights
+## Real product screenshots
 
+| Game lobby | Classic fishing | Tournament mode |
+|---|---|---|
+| ![Arcade fishing game source lobby](docs/assets/screenshots/lobby.png) | ![Classic fish shooting and cannon gameplay](docs/assets/screenshots/classic-mode.png) | ![Multiplayer fishing tournament mode](docs/assets/screenshots/tournament-mode.png) |
 
-- 100+ fish and multiplier tiers, from common fish to rare bosses and high-value targets
-- 20 cannon systems, including spread, tracking, piercing, freeze, lightning, nuclear, rapid-fire, VIP and legendary cannons
-- Real-time multiplayer rooms for 4-8 players with shooting sync, reward settlement and ranking
-- Boss events, coin rain, lucky wheel, guild battles, season skins and activity-driven retention
-- Monetization modules, including IAP, VIP, rewarded ads, starter packs, rankings and season passes
-- Anti-cheat design with server-authoritative calculation, behavior frequency checks, anomaly blocking and risk control
+| Sea Demon event | Jade lobby | Battle screen |
+|---|---|---|
+| ![Sea Demon boss fishing mode](docs/assets/screenshots/haimo.png) | ![Fishing game Jade lobby](docs/assets/screenshots/yushidating.png) | ![Arcade fish shooting battle interface](docs/assets/screenshots/zhandou.jpg) |
 
+## Product capabilities
 
-## Use Cases
+- **Lobby and mode selection:** screenshots show the lobby, classic mode, tournament mode, Jade field, Sea Demon event and mini-game entrances.
+- **Cannon shooting and settlement:** the C++ `FishingEngine` accepts balance, cannon cost and fish parameters, then returns capture status, reward and updated balance.
+- **Multiplayer rooms:** the C++ `Room` implements join, leave, capacity and online players; FastAPI exposes room listing and room joining.
+- **Fish and multiplier configuration:** `FishSpec` contains an ID, display name, reward multiplier and capture probability; example configuration defines scenes and multiplier ranges.
+- **Tournament and ranking:** tournament mode and `ranking_enabled` are present in configuration, with a real tournament screenshot.
+- **Progression and operations UI:** images show shop, upgrade, forging, pet and activity screens.
+- **Operations API:** a Node.js/Express scaffold provides mode catalog and health endpoints with Helmet and Zod.
+- **Server-authoritative direction:** public examples intentionally omit production capture probabilities, which require versioning, approval, simulation, audit and legal review.
 
+## Gameplay flow
 
-- Arcade fishing game source code demonstration and commercial cooperation
-- Fish shooting, fish hunter, casino arcade, casual shooting and multiplayer game development
-- iOS, Android, HTML5, PC and arcade simulator product delivery
-- Game hall integration, casual game collections, backend architecture and operations tooling
-- Technical evaluation for Southeast Asia, Europe, North America and South America markets
+1. A player selects classic, tournament or another enabled mode from the lobby.
+2. The room service returns an available room and session information.
+3. The player selects a cannon and fires, consuming the configured cost.
+4. The server evaluates the shot using fish parameters and controlled randomness.
+5. A capture updates the reward and balance while the client renders hit, coin and fish animations.
+6. Tournament mode can add ranking rules; complete behavior depends on production configuration and services.
 
+## Verifiable architecture
 
-## Tech Stack
+| Layer | Repository content | Responsibility |
+|---|---|---|
+| Client | Lua UI, protocol, login and friend modules under `client/` | Interface, interaction and network-protocol samples |
+| C++ server | CMake, FishingEngine, Room and tests under `server-cpp/` | Shot settlement, balance updates and room membership |
+| Python API | FastAPI, `/v1/rooms`, health and pytest | Room catalog, join flow and health checks |
+| Operations API | Node.js 20, Express, Helmet and Zod | Mode catalog, security headers and validation |
+| Database | `database/schema.sql` and development seed | Base schema and local development examples |
+| Configuration | `config.example/fishing-modes.yaml` | Classic, tournament, Jade, Sea Demon and thrill-zone examples |
+| Automated checks | C++, Python, Node and repository contract tests | Core behavior and repository conventions |
 
+## Illustrated pages
 
-- Client: Cocos Creator, Unity or HTML5 Canvas extension paths
-- Server: C++ real-time room, synchronization and settlement logic
-- Database: MySQL
-- Deployment: Docker, CDN, mobile packaging and private deployment
+- [Fishing game source code](https://masterai-top.github.io/fishing-master-arcade/en/fishing-game-source-code.html)
+- [Arcade fishing platform](https://masterai-top.github.io/fishing-master-arcade/en/arcade-fishing-platform.html)
+- [Simplified Chinese fish-shooting gameplay](https://masterai-top.github.io/fishing-master-arcade/zh-cn/fish-shooting-game.html)
+- [Simplified Chinese multiplayer server](https://masterai-top.github.io/fishing-master-arcade/zh-cn/multiplayer-fishing-server.html)
 
+## Clone and verify
 
-## Suggested Structure
-
-
-```text
-client/                 # Client source code or demo project
-server/                 # Real-time rooms, settlement and anti-cheat services
-admin/                  # Operations dashboard and configuration management
-database/               # Schema and migration notes
-config.example/         # Desensitized configuration examples
-docs/                   # GitHub Pages product and technical documentation
-scripts/                # Build, deployment and maintenance scripts
-tests/                  # Gameplay, multiplier, API and risk-control tests
-.github/workflows/      # CI and GitHub Pages workflows
+```bash
+git clone https://github.com/masterai-top/fishing-master-arcade.git
+cd fishing-master-arcade
 ```
 
+Prepare each component with [BACKEND-SCAFFOLD-README.md](BACKEND-SCAFFOLD-README.md), `server-cpp/CMakeLists.txt`, `server-python/pyproject.toml` and `admin/package.json`. There is no root `package.json` or `docker-compose.yml`, so the old root-level `npm install` and `docker-compose up` instructions were removed.
 
-## Public Repository Scope
+## Responsible use
 
+Before deployment, verify asset licenses, probability and randomness, reward economy, payments and ads, age controls, privacy, audit logs, anti-cheat and local gaming law. Production probabilities require simulation and independent audit; never use development seeds or example configuration in production.
 
-The public repository should show product structure, gameplay modules, selected source examples, screenshots and deployment documents. Do not publish real user data, payment secrets, admin accounts, production configuration, channel data, private asset license files or live operations data.
-
-
-## Documentation
-
-
-- [Project Home](docs/index.html)
-- [Features](docs/features.html)
-- [Architecture](docs/architecture.html)
-- [Deployment](docs/deployment.html)
-- [Responsible Use](docs/responsible-use.html)
-
-
-## Contact
-
-
-Telegram: `@xuzongbin001`  
-Email: `masterai918@gmail.com`
-## 产品截图 / Product Screenshots
-
-
-### 捕鱼游戏大厅 / Fishing Game Lobby
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/lobby.png" alt="Fishing Master Arcade Game Lobby" width="860">
-
-
-### 经典模式 / Classic Mode
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/classic-mode.png" alt="Fishing Master Arcade Classic Mode" width="860">
-
-
-### 海魔来袭 / Sea Demon Raid
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/haimo.png" alt="Sea Demon Raid Fishing Game Mode" width="860">
-
-
-### 玉石大厅 / Jade Lobby
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/yushidating.png" alt="Fishing Game Jade Lobby" width="860">
-
-
-### 玉石场 / Jade Arena
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/jade-arena.jpg" alt="Fishing Game Jade Arena" width="860">
-
-
-### 经典场景 / Classic Fishing Scene
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/jingdian.png" alt="Classic Arcade Fishing Scene" width="860">
-
-
-### 战斗界面 / Battle Gameplay
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/zhandou.jpg" alt="Arcade Fishing Battle Gameplay" width="860">
-
-
-### 比赛模式 / Tournament Mode
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/tournament-mode.png" alt="Fishing Game Tournament Mode" width="860">
-
-
-### 商城界面 / Shop
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/shangchnag.jpg" alt="Fishing Game Shop Interface" width="860">
-
-
-### 升级系统 / Upgrade System
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/shengji.jpg" alt="Fishing Game Upgrade System" width="860">
-
-
-### 宠物系统 / Pet System
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/chongwu.jpg" alt="Fishing Game Pet System" width="860">
-
-
-### 找刺激小游戏 / Mini Games
-
-
-<img src="https://raw.githubusercontent.com/masterai-top/fishing-master-arcade/main/docs/assets/screenshots/xiaoyouxi1.png" alt="Fishing Master Arcade Mini Games" width="860">
-
-
-## License
-
-
-For technical evaluation, business communication and authorized cooperation only. See the repository license files for details.
+Contact: Telegram `@xuzongbin001` · Email `masterai918@gmail.com` · [GitHub Issues](https://github.com/masterai-top/fishing-master-arcade/issues)
